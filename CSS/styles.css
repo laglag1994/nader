@@ -22,6 +22,7 @@ body{
 
 .container-2{
     display: flex;
+    position: relative;
     justify-content: space-around;    
     gap: 30px;
     height: 100%;
@@ -73,6 +74,7 @@ body{
     color: hsl(300, 43%, 22%);
     font-size: 50px;
     font-family: 'League Spartan', sans-serif;
+        font-weight: 700;
 }
 
 .box-1 p{
@@ -86,6 +88,9 @@ body{
 /* bottom */
 
 /* coltont */
+
+
+
 .colton{
     display: flex;
     gap: 20px;
@@ -149,12 +154,14 @@ flex-basis: auto;
 }
 
 .card-2{
+ 
     flex: 1;
     background-color: hsl(300, 43%, 22%);
     padding: 25px;
     max-width: 300px;
     border-radius: 10px;
     max-height: 150px;
+    margin-top: 15px;
 }
 .name-irene{
     line-height: 5px;
@@ -195,6 +202,7 @@ flex-basis: auto;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
+   
 
 }
 
@@ -206,6 +214,7 @@ flex-basis: auto;
     border-radius: 10px;
     max-height: 150px;
     align-self:flex-end;
+    margin-top: 30px;
 
 }
 
