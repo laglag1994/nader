@@ -1,10 +1,10 @@
-body{
+body {
     height: 100vh;
-   font-family: 'Fraunces', serif;
+    font-family: 'Fraunces', serif;
     font-size: 15px;
 }
 
-.main{
+.main {
     display: flex;
     flex-direction: column;
     width: 70%;
@@ -14,32 +14,32 @@ body{
     gap: 40px;
 }
 
-.container-1{
+.container-1 {
     display: flex;
     justify-content: space-between;
     gap: 90px;
 }
 
-.container-2{
+.container-2 {
     display: flex;
     position: relative;
-    justify-content: space-around;    
+    justify-content: space-around;
     gap: 30px;
     height: 100%;
 
 }
 
 
-.box-1{
+.box-1 {
     flex: 1;
 }
 
 
-.box-2{
+.box-2 {
     display: flex;
     flex-direction: column;
-    flex:1;
-   justify-content: space-evenly;
+    flex: 1;
+    justify-content: space-evenly;
 }
 
 
@@ -48,7 +48,7 @@ body{
     display: flex;
     border-radius: 5px;
     font-weight: 700;
-    background-color:  hsl(300, 24%, 96%);
+    background-color: hsl(300, 24%, 96%);
     align-items: center;
     justify-content: space-around;
     width: 80%;
@@ -57,29 +57,29 @@ body{
     padding-right: 15px; */
 }
 
-.rate-1{
+.rate-1 {
     align-self: start;
 }
 
-.rate-2{
+.rate-2 {
     align-self: center;
 }
 
-.rate-3{
+.rate-3 {
     align-self: end;
 
 }
 
-.box-1 h1{
+.box-1 h1 {
     color: hsl(300, 43%, 22%);
     font-size: 50px;
     font-family: 'League Spartan', sans-serif;
-        font-weight: 700;
+    font-weight: 700;
 }
 
-.box-1 p{
+.box-1 p {
     font-family: 'League Spartan', sans-serif;
-        color: hsl(303, 10%, 53%);
+    color: hsl(303, 10%, 53%);
     font-size: 16px;
     font-weight: 500;
 }
@@ -91,7 +91,7 @@ body{
 
 
 
-.colton{
+.colton {
     display: flex;
     gap: 20px;
     flex-grow: 0;
@@ -99,40 +99,40 @@ body{
     flex-basis: auto;
 }
 
-.card-1{
+.card-1 {
     flex: 1;
     background-color: hsl(300, 43%, 22%);
     padding: 25px;
     max-width: 300px;
     border-radius: 10px;
     max-height: 150px;
-    
+
 }
 
-.name-colton{
+.name-colton {
     line-height: 5px;
-    align-items:   center;
+    align-items: center;
 }
 
-.name-colton h1{
+.name-colton h1 {
     font-family: 'League Spartan', sans-serif;
     color: white;
     font-size: medium;
     font-weight: 500;
 }
 
-.name-colton h2{
+.name-colton h2 {
     font-family: 'League Spartan', sans-serif;
     color: hsl(333, 80%, 67%);
-    font-size:medium ;
+    font-size: medium;
     font-family: 'League Spartan', sans-serif;
     font-weight: 300;
 }
-.colton-info p{
+
+.colton-info p {
     color: white;
     font-family: 'League Spartan', sans-serif;
     font-weight: 400;
-    word-spacing: 0.1em;
     line-height: 15px;
 }
 
@@ -142,19 +142,15 @@ body{
 
 
 /* IRENE  */
-.irene{
-display:flex ;
-gap: 20px;
-flex-grow: 0;
-flex-shrink: 1;
-flex-basis: auto;
-
+.irene {
+    display: flex;
+    gap: 20px;
 
 
 }
 
-.card-2{
- 
+.card-2 {
+
     flex: 1;
     background-color: hsl(300, 43%, 22%);
     padding: 25px;
@@ -163,26 +159,28 @@ flex-basis: auto;
     max-height: 150px;
     margin-top: 15px;
 }
-.name-irene{
+
+.name-irene {
     line-height: 5px;
-    align-items:   center;
+    align-items: center;
 }
 
-.name-irene h1{
+.name-irene h1 {
     font-family: 'League Spartan', sans-serif;
     color: white;
     font-size: medium;
     font-weight: 500;
 }
 
-.name-irene h2{
+.name-irene h2 {
     font-family: 'League Spartan', sans-serif;
     color: hsl(333, 80%, 67%);
-    font-size:medium ;
+    font-size: medium;
     font-family: 'League Spartan', sans-serif;
     font-weight: 300;
 }
-.irene-info p{
+
+.irene-info p {
     color: white;
     font-family: 'League Spartan', sans-serif;
     font-weight: 400;
@@ -196,48 +194,48 @@ flex-basis: auto;
 
 
 /* ANNE  */
-.anne{
+.anne {
     display: flex;
     gap: 20px;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
-   
+
 
 }
 
-.card-3{
+.card-3 {
     flex: 1;
     background-color: hsl(300, 43%, 22%);
     padding: 25px;
     max-width: 300px;
     border-radius: 10px;
     max-height: 150px;
-    align-self:flex-end;
     margin-top: 30px;
 
 }
 
-.name-anne{
+.name-anne {
     line-height: 5px;
 }
 
 
-.name-anne h1{
+.name-anne h1 {
     font-family: 'League Spartan', sans-serif;
     color: white;
     font-size: medium;
     font-weight: 500;
 }
 
-.name-anne h2{
+.name-anne h2 {
     font-family: 'League Spartan', sans-serif;
     color: hsl(333, 80%, 67%);
-    font-size:medium ;
+    font-size: medium;
     font-family: 'League Spartan', sans-serif;
     font-weight: 300;
 }
-.anne-info p{
+
+.anne-info p {
     color: white;
     font-family: 'League Spartan', sans-serif;
     font-weight: 400;
@@ -251,11 +249,9 @@ flex-basis: auto;
 
 
 
-.container-2 img{
+.container-2 img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    margin-bottom: 5px;
 
 }
-
