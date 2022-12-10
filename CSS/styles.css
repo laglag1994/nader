@@ -7,21 +7,25 @@ body{
 .main{
     display: flex;
     flex-direction: column;
-    width: 80%;
-    margin: 50px auto;
+    width: 70%;
+    margin: auto auto;
     justify-content: space-between;
-    height: 100%;
+    height: 80%;
+    gap: 40px;
 }
 
 .container-1{
     display: flex;
     justify-content: space-between;
-    gap: 280px;
+    gap: 90px;
 }
 
 .container-2{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;    
+    gap: 30px;
+    height: 100%;
+
 }
 
 
@@ -34,19 +38,22 @@ body{
     display: flex;
     flex-direction: column;
     flex:1;
-   justify-content: space-between;
+   justify-content: space-evenly;
 }
 
 
 .rates {
+    font-family: 'League Spartan', sans-serif;
     display: flex;
-    flex-direction: row;
     border-radius: 5px;
-    font-weight: normal;
+    font-weight: 700;
     background-color:  hsl(300, 24%, 96%);
     align-items: center;
     justify-content: space-around;
-    width: 90%;
+    width: 80%;
+    color: hsl(300, 43%, 22%);
+    /* padding-left: 15px;
+    padding-right: 15px; */
 }
 
 .rate-1{
@@ -59,4 +66,187 @@ body{
 
 .rate-3{
     align-self: end;
+
 }
+
+.box-1 h1{
+    color: hsl(300, 43%, 22%);
+    font-size: 50px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.box-1 p{
+    font-family: 'League Spartan', sans-serif;
+        color: hsl(303, 10%, 53%);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* bottom */
+
+/* coltont */
+.colton{
+    display: flex;
+    gap: 20px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+.card-1{
+    flex: 1;
+    background-color: hsl(300, 43%, 22%);
+    padding: 25px;
+    max-width: 300px;
+    border-radius: 10px;
+    max-height: 150px;
+    
+}
+
+.name-colton{
+    line-height: 5px;
+    align-items:   center;
+}
+
+.name-colton h1{
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.name-colton h2{
+    font-family: 'League Spartan', sans-serif;
+    color: hsl(333, 80%, 67%);
+    font-size:medium ;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 300;
+}
+.colton-info p{
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    word-spacing: 0.1em;
+    line-height: 15px;
+}
+
+/* end colton  */
+
+
+
+
+/* IRENE  */
+.irene{
+display:flex ;
+gap: 20px;
+flex-grow: 0;
+flex-shrink: 1;
+flex-basis: auto;
+
+
+
+}
+
+.card-2{
+    flex: 1;
+    background-color: hsl(300, 43%, 22%);
+    padding: 25px;
+    max-width: 300px;
+    border-radius: 10px;
+    max-height: 150px;
+}
+.name-irene{
+    line-height: 5px;
+    align-items:   center;
+}
+
+.name-irene h1{
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.name-irene h2{
+    font-family: 'League Spartan', sans-serif;
+    color: hsl(333, 80%, 67%);
+    font-size:medium ;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 300;
+}
+.irene-info p{
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    word-spacing: 0.1em;
+    line-height: 15px;
+}
+
+/* end irene  */
+
+
+
+
+/* ANNE  */
+.anne{
+    display: flex;
+    gap: 20px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+
+}
+
+.card-3{
+    flex: 1;
+    background-color: hsl(300, 43%, 22%);
+    padding: 25px;
+    max-width: 300px;
+    border-radius: 10px;
+    max-height: 150px;
+    align-self:flex-end;
+
+}
+
+.name-anne{
+    line-height: 5px;
+}
+
+
+.name-anne h1{
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.name-anne h2{
+    font-family: 'League Spartan', sans-serif;
+    color: hsl(333, 80%, 67%);
+    font-size:medium ;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 300;
+}
+.anne-info p{
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    word-spacing: 0.1em;
+    line-height: 15px;
+}
+
+
+
+
+
+
+
+.container-2 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+
+}
+
